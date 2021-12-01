@@ -11,6 +11,17 @@ metadata:
     product: aes
   name: listeners.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: '{{ include "ambassador.fullname" . }}-apiext'
+          namespace: '{{ include "ambassador.namespace" . }}'
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:

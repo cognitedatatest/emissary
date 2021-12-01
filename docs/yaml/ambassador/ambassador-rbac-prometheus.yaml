@@ -74,6 +74,17 @@ metadata:
     product: aes
   name: authservices.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -309,6 +320,17 @@ metadata:
     product: aes
   name: consulresolvers.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -385,6 +407,17 @@ metadata:
     product: aes
   name: devportals.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -581,6 +614,17 @@ metadata:
     product: aes
   name: hosts.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -1060,6 +1104,17 @@ metadata:
     product: aes
   name: kubernetesendpointresolvers.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -1127,6 +1182,17 @@ metadata:
     product: aes
   name: kubernetesserviceresolvers.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -1194,6 +1260,17 @@ metadata:
     product: aes
   name: listeners.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -1353,6 +1430,17 @@ metadata:
     product: aes
   name: logservices.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -1483,6 +1571,17 @@ metadata:
     product: aes
   name: mappings.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -2337,6 +2436,17 @@ metadata:
     product: aes
   name: modules.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -2413,6 +2523,17 @@ metadata:
     product: aes
   name: ratelimitservices.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -2531,6 +2652,17 @@ metadata:
     product: aes
   name: tcpmappings.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -2708,6 +2840,17 @@ metadata:
     product: aes
   name: tlscontexts.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
@@ -2868,6 +3011,17 @@ metadata:
     product: aes
   name: tracingservices.getambassador.io
 spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Ym9ndXM7IHdpbGwgYmUgZmlsbGVkIGluIGJ5IEVtaXNzYXJ5J3MgYXBpZXh0IGNvbnRyb2xsZXI=
+        service:
+          name: ambassador-apiext
+          namespace: default
+          path: /webhook/crd-convert
+      conversionReviewVersions:
+      - v1beta1
   group: getambassador.io
   names:
     categories:
